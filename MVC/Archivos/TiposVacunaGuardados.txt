@@ -1,0 +1,4 @@
+VV|Vector Viral
+mRNA|ARN Mensajero
+IV|Virus Inactivado
+PB|Basado en Proteínas

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Dominio.Entidades.Vacuna>
+
+@{
+    ViewBag.Title = "VacunasImportadas";
+}
+
+<h2>Vacunas Importadas</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VacunaTipo)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+
+        <th></th>
+    </tr>
+    @if(ViewBag.lista != null)
+    {
+        foreach (string[] item in ViewBag.lista)
+        {
+            <tr>
+                <td>
+                    @Html.Label(item[0])
+                </td>
+                <td>
+                    @Html.Label(item[1])
+                </td>
+                <td>
+                    @Html.Label(item[2])
+                </td>
+                <td>
+                    @Html.ActionLink("Detalles", "Details", new { nombre = item[0] })
+                </td>
+            </tr>
+        }
+    }
+
+
+</table>

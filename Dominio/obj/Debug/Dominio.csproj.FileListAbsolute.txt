@@ -1,0 +1,29 @@
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.dll.config
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\EntityFramework.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\EntityFramework.xml
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\Dominio.dll.config
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\Dominio.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\Dominio.pdb
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\obj\Debug\Dominio.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Dominio\obj\Debug\Dominio.pdb

@@ -1,0 +1,12 @@
+1|Pfizer|SI|Estados Unidos
+2|BioNTech|SI|Alemania
+3|AstraZeneca|SI|Reino Unido
+4|Oxford|NO|Reino Unido
+5|Johnson & Johnson|SI|Estados Unidos
+6|Sinopharm|SI|China
+7|Sinovac Biotech|SI|China
+8|Novavax|SI|Estados Unidos
+9|Moderna|SI|Estados Unidos
+10|Intituto Gamaleya|SI|Rusia
+11|Bharat Biotech|SI|India
+12|CanSinoBIO|SI|China

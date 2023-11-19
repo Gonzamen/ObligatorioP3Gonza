@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Importación de Archivos";
+}
+
+<h2>Archivos Importados!</h2>
+
+<p>Errores generados:</p>
+<p>@ViewBag.errores</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Nombre")
+        </th>
+        <th>
+            @Html.Label("Tipo de vacuna")
+        </th>
+        <th>
+            @Html.Label("Precio")
+        </th>
+        <th>
+
+        </th>
+    </tr>
+
+    @foreach (string[] vec in ViewBag.listavacunas)
+    {
+        <tr>
+            <td>
+                @Html.DisplayName(vec[0])
+            </td>
+            <td>
+                @Html.DisplayName(vec[1])
+            </td>
+            <td>
+                @Html.DisplayName(vec[2])
+            </td>
+            <td>
+                @Html.ActionLink("Detalles", "Details", new { nombre = vec[0] })
+            </td>
+        </tr>
+    }
+</table>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Cedula")
+        </th>
+        <th>
+            @Html.Label("Contraseña")
+        </th>
+    </tr>
+    @foreach (string[] usu in ViewBag.listausuarios)
+    {
+        <tr>
+            <td>
+                @Html.DisplayName(usu[0])
+            </td>
+            <td>
+                @Html.DisplayName(usu[1])
+            </td>
+        </tr>
+    }
+</table>

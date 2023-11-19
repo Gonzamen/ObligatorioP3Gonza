@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Filtro";
+}
+
+<h2>Filtrar Vacunas</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        <h4>Filtrar Por:</h4>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Fase</label>
+            <div class="col-md-10">
+                <input type="number" id="fase" name="fase" class="form-control" />
+            </div>
+        </div>
+        <div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Rango Precio Minimo</label>
+                <div class="col-md-6">
+                    <input type="number" id="rangomin" name="rangomin" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Rango Precio Máximo</label>
+                <div class="col-md-6">
+                    <input type="number" id="rangomax" name="rangomax" class="form-control" />
+                </div>
+            </div>
+            <p>Para filtrar por precio debe completar ambos campos.</p>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Tipo de Vacuna</label>
+            <div class="col-md-6">
+                <input type="text" id="tipo" name="tipo" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Laboratorio</label>
+            <div class="col-md-10">
+                <input type="text" id="laboratorio" name="laboratorio" class="form-control" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Pais</label>
+            <div class="col-md-10">
+                <input type="text" id="pais" name="pais" class="form-control" />
+            </div>
+        </div>
+
+        <label class="form-check-label">Seleccione Filtro</label>
+        <select id="select" name="select" class="form-select">
+            <option selected>Opciones</option>
+            <option value="interseccion">Por Intersección</option>
+            <option value="union">Por Unión</option>
+        </select>
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Filtrar" class="btn btn-default" />
+            </div>
+        </div>
+        @ViewBag.error
+    </div>
+}
+
+
+@if (ViewBag.lista != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Label("Nombre")
+            </th>
+            <th>
+                @Html.Label("Tipo de vacuna")
+            </th>
+            <th>
+                @Html.Label("Precio")
+            </th>
+            <th>
+
+            </th>
+        </tr>
+
+        @foreach (Dominio.Entidades.Vacuna vac in ViewBag.lista)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayName(vac.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayName(vac.VacunaTipo)
+                </td>
+                <td>
+                    @Html.DisplayName(vac.Precio.ToString())
+                </td>
+                <td>
+                    @Html.ActionLink("Comprar", "Index","Compra", new { nombre = vac.Nombre }, null)
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+<div>
+    @Html.ActionLink("Volver", "Index")
+</div>

@@ -1,0 +1,208 @@
+﻿@model Dominio.Entidades.Vacuna
+
+@{
+    ViewBag.Title = "Compra";
+}
+
+<h2>Relizar Compra</h2>
+
+<div>
+    <h4>Vacuna a comprar:</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VacunaTipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VacunaTipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dosis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dosis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LapsoDosis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LapsoDosis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RangoEdadMin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RangoEdadMin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RangoEdadMax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RangoEdadMax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfiCovid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfiCovid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfiHosp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfiHosp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfiCti)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfiCti)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempMin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempMin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempMax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempMax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstatusPaises)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstatusPaises)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Laboratorios)
+        </dt>
+
+        <dd>
+           
+            @foreach (Dominio.Entidades.Laboratorio item in Model.Laboratorios)
+            {
+                <tr>
+                    <td>@item.Nombre | </td>
+                </tr>
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AprobacionEmergencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AprobacionEmergencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfectosAdv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfectosAdv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DosisAnual)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DosisAnual)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Covax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Covax)
+        </dd>
+    </dl>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-md-2">Cantidad de Dosis a Comprar</label>
+        <div class="col-md-6">
+            <input type="number" id="cantidad" name="cantidad" class="form-control" required />
+        </div>
+    </div>
+
+    <label class="form-check-label">Seleccione Prestador de Salud</label>
+    <select id="select" name="select" required class="form-select">
+        <option selected>Opciones</option>
+        @foreach (Dominio.Entidades.PrestadorSalud prestador in ViewBag.prestadores)
+        {
+            <option value="@prestador.NumRegistro">@prestador.Nombre</option>
+        }
+    </select>
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Comprar" class="btn btn-default" />
+        </div>
+    </div>
+
+    @ViewBag.error
+</div>
+}
+
+
+<p>
+    @Html.ActionLink("Volver", "Index")
+</p>

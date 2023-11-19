@@ -1,0 +1,52 @@
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Repositorios.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Repositorios.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.csprojResolveAssemblyReference.cache
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.csprojAssemblyReference.cache
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.csproj.CoreCompileInputs.cache
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Repositorios.dll.config
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Repositorios.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Repositorios.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\EntityFramework.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\Dominio.dll.config
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\EntityFramework.xml
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programación\P3\Obligatorio 2\Obligatorio 2\Obligatorio2\Repositorios\obj\Debug\Repositorios.csproj.CopyComplete
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\Repositorios.dll.config
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\Repositorios.dll
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\Repositorios.pdb
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\Dominio.dll
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.dll
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\Dominio.pdb
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\Dominio.dll.config
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.xml
+D:\Programación\P3\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programación\P3\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.csprojAssemblyReference.cache
+D:\Programación\P3\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.csproj.CoreCompileInputs.cache
+D:\Programación\P3\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.csproj.CopyComplete
+D:\Programación\P3\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.dll
+D:\Programación\P3\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.pdb
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\Repositorios.dll.config
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\Repositorios.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\Repositorios.pdb
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\Dominio.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\Dominio.pdb
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\Dominio.dll.config
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.csprojAssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.csproj.CopyComplete
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.dll
+C:\Users\user\OneDrive\Escritorio\Obligatorio2_p3\Repositorios\obj\Debug\Repositorios.pdb

@@ -1,0 +1,190 @@
+﻿@model Dominio.Entidades.Vacuna
+
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>Detalles Vacuna</h2>
+
+<div>
+    <h4>Vacuna: @Model.Nombre</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VacunaTipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VacunaTipo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dosis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dosis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LapsoDosis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LapsoDosis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RangoEdadMin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RangoEdadMin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RangoEdadMax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RangoEdadMax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfiCovid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfiCovid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfiHosp)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfiHosp)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfiCti)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfiCti)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempMin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempMin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempMax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempMax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Fase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Fase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstatusPaises)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstatusPaises)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Laboratorios)
+        </dt>
+
+        <dd>
+            @foreach (Dominio.Entidades.Laboratorio item in Model.Laboratorios)
+            {
+                <tr>
+                    <td>@item.Nombre | </td>
+                </tr>
+            }
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AprobacionEmergencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AprobacionEmergencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfectosAdv)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfectosAdv)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DosisAnual)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DosisAnual)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Covax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Covax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cedula)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cedula)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaRegistro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaRegistro)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Volver", "VacunasImportadas")
+</p>

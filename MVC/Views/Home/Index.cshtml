@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    @if (Session["logueadocedula"] != null)
+    {
+        string usuario = Session["logueadocedula"].ToString();
+        <h1>Bienvenido usuario @usuario</h1>
+        <h2>Sistema de logística de vacunaciones contra SARS-COV2</h2>
+    }
+    else
+    {
+        <h1>Bienvenido invitado</h1>
+        <h2>Sistema de logística de vacunaciones contra SARS-COV2</h2>
+    }
+</div>

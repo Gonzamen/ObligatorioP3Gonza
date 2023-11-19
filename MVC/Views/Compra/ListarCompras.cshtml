@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Dominio.Entidades.Compra>
+
+@{
+    ViewBag.Title = "ListarCompras";
+}
+
+<h2>Lista de Compras</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CantDosis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vacuna.Precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LaVacuna)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            @Html.Label("Monto")
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CantDosis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vacuna.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vacuna.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha)
+        </td>
+        <td>
+            @Html.DisplayName((item.CantDosis*item.Vacuna.Precio).ToString())
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+<h2>Compras realizadas por la Institución</h2><br />
+<h4>Cantidad de compras disponibles: @ViewBag.compras</h4>
+<h4>Cantidad de dinero autorizado: @ViewBag.autorizado</h4>
+<h4>Cantidad de dinero disponible: @ViewBag.disponible</h4>

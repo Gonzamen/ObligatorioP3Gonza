@@ -1,0 +1,12 @@
+1|Pfizer-BioNTech|mRNA|2|28|18|100|95,00|100,00|100,00|-60|10|4|SI|Posibles alergias y dolor muscular|15,00|2|SI|5081350|04/05/2021 12:19:00|Uruguay,Argentina,Brasil,Chile,Peru,Mexico,Estados Unidos,Alemania,Reino Unido
+2|Oxford-AstraZeneca|VV|2|28|60|100|80,00|100,00|100,00|-30|10|4|SI|Posible trombosis y dolor muscular|10,00|2|SI|5081350|04/05/2021 12:19:00|Uruguay,Argentina,Chile,Mexico,Alemania,Reino Unido,Israel,Estados Unidos,Palestina
+3|Johnson & Johnson|VV|1|28|18|100|70,00|100,00|100,00|-30|10|4|SI|Posible trombosis y dolor muscular|10,00|1|SI|5081350|04/05/2021 12:19:00|Argentina,Brasil,Chile,Peru,Mexico,Estados Unidos,Alemania,Islas Feroe,Nueva Zelanda
+4|Sinopharm|IV|2|28|18|100|70,00|100,00|100,00|-30|10|4|SI|Posibles alergias y dolor muscular|8,00|2|SI|5081350|04/05/2021 12:19:00|Uruguay,Argentina,Brasil,Chile,Peru,Mexico,Estados Unidos,Alemania,Reino Unido,Nigeria,Senegal
+5|Sinovac|IV|2|28|18|100|60,00|100,00|100,00|-20|10|4|SI|Posibles alergias y dolor muscular|8,00|2|SI|5081350|04/05/2021 12:19:00|Uruguay,Argentina,BrasilMexico,Estados Unidos,Reino Unido,Rusia,Sudafrica
+6|Novavax|PB|2|28|18|100|85,00|100,00|100,00|-20|10|3|NO|Posibles alergias y dolor muscular|10,00|2|NO|5240197|04/05/2021 12:19:00|Brasil,Chile,Peru,Mexico,Estados Unidos,Alemania,Reino Unido,España,Eslovaquia
+7|Moderna|mRNA|2|28|18|100|95,00|100,00|100,00|-40|10|4|SI|Posibles alergias y dolor muscular|15,00|2|NO|5240197|04/05/2021 12:19:00|Uruguay,Argentina,Peru,Mexico,Estados Unidos,Alemania,Reino Unido,Italia,Francia
+8|Sputnik V|mRNA|2|28|18|100|95,00|100,00|100,00|-60|10|4|SI|Posibles alergias y dolor muscular|15,00|2|SI|5240197|04/05/2021 12:19:00|Uruguay,Argentina,Brasil,Chile,Peru,Mexico,Estados Unidos,Japón,China
+9|Covaxin|IV|2|28|18|100|80,00|100,00|100,00|-5|10|3|SI|Posibles alergias y dolor muscular|10,00|2|NO|5240197|04/05/2021 12:19:00|Uruguay,Argentina,Brasil,Chile,Peru,Mexico,Estados Unidos,Alemania,Reino Unido,Canada,Australia
+10|CanSino|VV|2|28|18|100|75,00|95,00|100,00|-2|10|3|SI|Posibles alergias y dolor muscular|10,00|2|NO|5240197|04/05/2021 12:19:00|Uruguay,Argentina,Brasil,Chile,Peru,Mexico,Reino Unido,Croacia,Venezuela
+12|Defensa2|mRNA|5|5|0|50|11,00|21,00|31,00|-20|49|4|SI|Dos|2500,00|50|SI|9898989|11/05/2021 0:00:00|Uruguay,Brasil,Chile,Peru,Mexico,Estados Unidos,Alemania,Reino Unido,India,Pakistan
+13|Defensa3|VV|2|28|18|100|75,00|95,00|100,00|-2|10|3|SI|Posibles alergias y dolor muscular|10,00|2|NO|5240197|04/05/2021 12:19:00|Uruguay,Argentina,Brasil,Chile,Peru,Mexico,Reino Unido,Croacia,Venezuela
